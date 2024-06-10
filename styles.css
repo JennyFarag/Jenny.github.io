@@ -1,0 +1,457 @@
+/* styles.css */
+
+
+
+/* header section */
+.grey-rectangle {
+    background-color: #B1B1B1; 
+    padding: 20px; 
+    font-size: 20px; 
+}
+
+.grey-rectangle .contact-info {
+    font-size: 16px;
+}
+
+.welcome-message {
+    font-size: 22px;
+    font-weight: bold;
+}
+.contact-info {
+    font-size: 15px;
+}
+
+.nav-item a {  /* For  words of navbar section */
+    font-family: 'Inter';
+    font-size:18px;
+
+}
+
+.container h1 {
+    font-family: 'Kameron', serif;
+    font-weight: bold;
+    font-size: 43px; 
+}
+
+.container p {
+    font-family: 'Abel' ,sans-serif;;
+    font-size: 17px; 
+}
+
+
+/* Navbar section */
+
+.white-rectangle {
+    background-color: #FFFFFF; 
+}
+.main-image1 {
+    max-width: 350px;
+    max-height: 350px;
+
+}
+
+nav.navbar {
+    background-color: #d3d3d3; 
+} 
+.navbar-light .navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-light .navbar-nav .btn-success {
+    background-color: #68B691;
+}
+
+.navbar-light .navbar-nav .btn-success:hover {
+    background-color: #4d9372;
+}
+
+/* Main page section */
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.buttongs{
+    background-color: #D9D9D9;
+    min-height: 55px;
+    border-color: #000000;
+}
+
+
+/* About us section */
+
+.about-section {
+    background-color: #dbf2e3;
+    padding: 20px;
+}
+
+.about-text {
+    padding: 50px;
+}
+
+.about-section .left-align-text {
+    font-family: 'Kanit';
+    font-size: 30px; 
+}
+
+.about-section .about-text p {
+    font-family: 'Abel',sans-serif; 
+    font-size: 15px; 
+}
+
+
+/* Location  section */
+
+#location-section .left-align {
+    text-align: left;
+}
+#location-section h3 {
+    font-family: 'Kanit';
+    font-size: 30px; 
+}
+
+#location-section h4.kanit-text {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+
+#location-section h4.kanit-text .bold-text {
+    font-weight: bold;
+}
+
+
+#location-section p.abel-text {
+    font-family: 'Abel';
+    font-size: 1.2rem;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.larger-text {
+    font-size: 9px; 
+}
+
+
+/* Services  section */
+
+.services-header {
+    font-family: 'Kanit';
+    font-size: 30px;
+}
+
+#services-section h4.card-title {
+    font-family: 'Inter';
+    font-size: 20px;
+}
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    
+}
+
+p1 {
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #68B691;
+}
+
+
+.services-header {
+    margin-bottom: 30px;
+}
+
+.card-body {
+    height: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding:35px;
+    margin:10px;
+}
+
+.col-md-4 {
+    border-radius: 50px;
+    display: flex;
+    padding-right: 15px; 
+    padding-left: 15px; 
+}
+
+.col-md-4 .card {
+    background-color: #F5F5F5; 
+    border-radius: 50px; 
+}
+
+
+
+/* Medical experts  section */
+
+.medical-experts-section{
+    background-color: #dbf2e3;
+    padding: 20px;
+}
+
+
+.medical-experts-section p {
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+}
+
+.medical-experts-section h5 {
+    font-family: 'Inter';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.btn-success {
+    background-color: #68B6B1;
+    border-color: #68B6B1;
+}
+
+.btn-success:hover {
+    background-color: #68B6B1; 
+    border-color:#68B6B1;
+}
+
+.card {
+    width: 100%; 
+   
+}
+
+
+.left-align-container {
+    text-align: left;
+    width: 100%;
+}
+
+
+.left-align-text {
+    display: inline-block; 
+    margin-left: 30px; 
+}
+
+
+.left-align-paragraph {
+    text-align: left;
+}
+
+
+/*Consultation  section */
+.consultation-section label {
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+}
+
+.consultation-section1 {
+    border: 2px solid #68B691; 
+    padding: 20px;
+}
+
+.consultation-section h2 {
+    font-family: 'Inter';
+    font-size: 30px;
+    font-size:bold;
+}
+.consultation-section1 button {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px; 
+    padding: 12px 20px; 
+    background-color: #868686; 
+    
+}
+
+/*Testimonials section*/
+.testimonials-section h3.services-header {
+    font-family: 'Kanit';
+    font-size: 30px;
+}
+
+.testimonials-section .card-text strong span {
+    color: #68B691;
+}
+
+
+
+#appointmentForm h3 {
+    font-family: 'Kanit';
+    font-size: 30px;
+}
+
+#appointmentForm .form-label,
+#appointmentForm .form-control::placeholder {
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+}
+
+
+
+#appointmentForm {
+    padding: 40px;;
+    border-radius: 40px;
+}
+
+
+
+/*Footer section*/
+.c-footer{
+    background-color: #868686;
+    padding-top: 40px;
+}
+
+.c-footer {
+    font-family: 'Kanit';
+}
+
+.c-footer h5 {
+    font-size: 20px; 
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+.c-footer p,
+.c-footer ul {
+    font-size: 16px;
+    margin-bottom: 15px; 
+}
+
+
+.navbar-brand img {
+    height: 75px;
+}
+.header-contact {
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #343a40;
+}
+
+h2, .navbar-brand, .nav-link {
+    font-family: 'Arial', sans-serif;
+}
+
+h3 {
+    display: inline-block;
+    border-style: solid; 
+    border-color: #000000;
+    border-width: 2px;
+    padding: 10px 55px; 
+    margin: 30px;
+}
+
+
+/* Header Styles */
+.header-contact {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.navbar-brand img {
+    height: 75px;
+}
+
+.header {
+    background-color: #e9ecef;
+    padding: 15px 0;
+}
+
+header.container-fluid {
+    background-color: #808080; 
+    padding: 15px 0; 
+}
+
+.services-header {
+    display: inline-block;
+    border-style: solid; 
+    border-color: #000000;
+    border-width: 2px;
+    padding: 10px 55px; 
+    margin: 30px;
+}
+
+
+/* Main Image */
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Center the entire row */
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container.my-5 {
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+/* Modal section */
+
+.modal-body {
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+#bookingModal {
+    background-color: #D9D9D9; 
+    border: 1px solid #b5f3de;
+    border-radius: 8px;
+}
+.modal-title {
+    
+    font-weight: bold;
+    color: #343a40;
+}
+
+
+
+.modal-footer {
+    background-color: #f8f9fa;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.prescription-heading {
+    font-family: 'Kanit';
+    font-size: 30px;
+}
+
+
+
+
